@@ -1,0 +1,6 @@
+{
+  "appId": "com.damian.examenfinal",
+  "appName": "examen-final",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
