@@ -8,6 +8,9 @@ function App() {
     <div className="container mt-4">
       <h1>Examen Final - Programación de Componentes</h1>
 
+      <AuthPage />
+      <hr />
+      
       <ProductsPage />
       <hr />
 
