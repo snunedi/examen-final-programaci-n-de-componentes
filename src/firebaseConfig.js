@@ -4,12 +4,13 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCmGXsxq0J8UEN_fR6uQmWTlWJiBSkxldk",
-  authDomain: "react-auth-upload2.firebaseapp.com",
-  projectId: "react-auth-upload2",
-  storageBucket: "react-auth-upload2.firebasestorage.app",
-  messagingSenderId: "1051253969165",
-  appId: "1:1051253969165:web:aff78354f8cf4a0a282044"
+  apiKey: "AIzaSyA-byDgOVOKPZJ4iS9UUxo510i07w2424M",
+  authDomain: "examenfinalpc.firebaseapp.com",
+  projectId: "examenfinalpc",
+  storageBucket: "examenfinalpc.firebasestorage.app",
+  messagingSenderId: "63980448708",
+  appId: "1:63980448708:web:f60773c87d6a33b27cd291",
+  measurementId: "G-DPT4D65JF6"
 };
 
 // Inicializar Firebase
