@@ -1,16 +1,25 @@
-# React + Vite
+Proyecto Final: Examen de Programación de Componentes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Asignatura:Programación de Componentes.
 
-Currently, two official plugins are available:
+Integrantes:Damian Zambrano-Stephanie Nuñez
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Objetivos del Proyecto
 
-## React Compiler
+Este proyecto cumple con los siguientes objetivos de aprendizaje: Construir una aplicación web con librería de React según requerimientos específicos. Implementar servicios cloud en aplicación web React según requerimientos específicos y estándares de la industria. Obtener desplegables de aplicación para entornos web y mobile según estándares de la industria.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+Contenidos Implementados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Esta aplicación demuestra la aplicación de los siguientes conceptos abordados: JSX , Componentes (funcionales, de clase) , Props y State , Métodos del ciclo de vida , Eventos , Comunicación entre componentes (padre-hijo e hijo-padre) , Formularios y validaciones , Enrutamiento (react-router) , y Temas avanzados como Firebase (auth, database) y Bootstrap.
+
+
+Estructura de Componentes 
+
+La aplicación está organizada en varios componentes.
+
+Listado de Productos y Carrito. El componente ProductsPage.jsx es el Componente Padre, que actúa como la lista de productos y maneja el estado del carrito. Implementa map() para listar los productos y maneja la comunicación hijo-padre usando callbacks. El componente ProductItem.jsx es el Componente Hijo que renderiza el producto y su botón. Este maneja la comunicación padre-hijo usando props. El componente Cart.jsx muestra el estado del carrito, el cual es actualizado con state y this.setState({}).
+
+Formulario, Validación y Firestore. El componente FormPage.jsx es el componente del formulario. Configura react-simple-validator para las validaciones y guarda los datos del formulario en Firestore Database. El archivo firebaseConfig.js contiene la configuración necesaria para conectar la aplicación a Firebase.
+
+Estilos, Autenticación, Storage y Versión Mobile. El componente AuthPage.jsx maneja la autenticación e implementa Firebase Auth. El componente UploadImage.jsx permite subir archivos e implementa Firebase Storage. La estilización general utiliza Bootstrap para el formulario y otros componentes. Para la exportación a versión móvil, se configuró Android Studio, Gradle y Cordova, se exportó el proyecto a APK, se firmó el APK y se probó en un dispositivo.
